@@ -1,0 +1,144 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 25px 0;
+  background: var(--body-bg);
+  border-bottom: 1px solid var(--line-color);
+  z-index: 100;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo img {
+    width: 210px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+    &-item {
+      font-family: var(--MM), sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      text-decoration: none;
+      color: var(--main);
+
+      &__link {
+        text-decoration: none;
+        color: var(--main);
+        font-weight: 500;
+        transition: 0.3s;
+        position: relative;
+        padding-bottom: 10px;
+        transition: color 0.3s ease;
+        color: var(--main);
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 2px;
+          border-radius: 10px;
+          transition: width 0.5s ease;
+          background: #4FC3F7;
+        }
+
+        &:hover {
+          color: #4FC3F7;
+
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 20px;
+
+    &-btn {
+      text-transform: uppercase;
+      font-family: var(--MM), sans-serif;
+      font-weight: 500;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      color: var(--main);
+
+      &:hover {
+        color: #4FC3F7;
+      }
+
+      &::after {
+        transition: width 0.5s ease;
+      }
+    }
+
+    .theme-btn {
+      font-size: 30px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: rotate(20deg) scale(1.1);
+      }
+    }
+
+    .moon {
+      color: #fff;
+      
+    }
+
+    .sun {
+      color: #000;
+    }
+  }
+}
+
+body,
+.header,
+.header__menu a,
+.header__actions button {
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+}
+
+.header {
+  transition: all 0.3s ease;
+}
+
+.header--scrolled {
+  background: rgba(120, 120, 120, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.lang-text {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.lang-text:active {
+  opacity: 0.7;
+}
+  

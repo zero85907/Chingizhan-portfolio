@@ -1,0 +1,651 @@
+// Header start
+
+@media (max-width: 1024px) {
+  .header {
+    &__nav {
+      gap: 20px;
+    }
+
+    &__menu {
+      gap: 20px;
+
+      &-item {
+        font-size: 18px;
+      }
+    }
+
+    &__logo img {
+      width: 180px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 0;
+
+    &__nav {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    &__menu {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    &__actions {
+      gap: 15px;
+
+      &-btn {
+        font-size: 18px;
+      }
+
+      .theme-btn {
+        font-size: 24px;
+      }
+    }
+
+    &__logo img {
+      width: 160px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    &__menu {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    &__actions {
+      gap: 10px;
+
+      &-btn {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  .header {
+    &__menu {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    &__menu {
+      flex-wrap: wrap;
+      gap: 10px;
+
+      &-item {
+        font-size: 14px;
+      }
+    }
+
+    &__actions {
+      gap: 10px;
+    }
+
+    &__logo img {
+      width: 140px;
+    }
+  }
+}
+
+// Header end
+
+// Hero start
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 180px 0;
+
+    &__content {
+      &-title {
+        font-size: 48px;
+      }
+
+      &-text {
+        font-size: 18px;
+      }
+    }
+
+    &__logo img {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 160px 0 80px 0;
+
+    &__wrapper {
+      gap: 30px;
+    }
+
+    &__content {
+      max-width: 100%;
+
+      &-title {
+        font-size: 36px;
+      }
+
+      &-text {
+        font-size: 16px;
+      }
+    }
+
+    &__logo img {
+      height: 300px;
+    }
+
+    &__btn-icon {
+      padding: 14px 28px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 180px 0 80px 0;
+
+    &__content {
+      &-title {
+        font-size: 28px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+
+    &__logo img {
+      height: 300px;
+    }
+
+    &__btn-icon {
+      padding: 12px 22px;
+      font-size: 14px;
+    }
+  }
+}
+
+// Hero end
+
+// About start
+
+@media (max-width: 1024px) {
+  .about {
+    &__title {
+      font-size: 38px;
+    }
+
+    &__blocks {
+      gap: 30px;
+      margin-top: 70px;
+
+      &-card {
+        padding: 25px;
+
+        &-title {
+          font-size: 26px;
+        }
+
+        &-text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__blocks {
+      grid-template-columns: 1fr;
+      gap: 25px;
+      margin-top: 50px;
+
+      &-card {
+        padding: 20px;
+
+        &-title {
+          font-size: 22px;
+        }
+
+        &-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__blocks {
+      gap: 20px;
+
+      &-card {
+        padding: 18px;
+        border-width: 2px;
+
+        &-title {
+          font-size: 20px;
+        }
+
+        &-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// About end
+
+// Skills start
+
+@media (max-width: 1024px) {
+  .skills {
+    &__title {
+      font-size: 38px;
+    }
+
+    &__grid {
+      gap: 30px;
+    }
+
+    &__item {
+      &-info {
+        &_left {
+          gap: 10px;
+
+          &-icon {
+            width: 50px;
+            height: 50px;
+            font-size: 22px;
+
+            &_name {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+
+      &-bar {
+        height: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+
+    &__item {
+      &-info {
+        &_left {
+          &-icon {
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+
+            &_name {
+              font-size: 16px;
+            }
+          }
+        }
+
+        &_percent {
+          font-size: 13px;
+        }
+      }
+
+      &-bar {
+        height: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__item {
+      &-info {
+        &_left {
+          gap: 8px;
+
+          &-icon {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+
+            &_name {
+              font-size: 14px;
+            }
+          }
+        }
+
+        &_percent {
+          font-size: 12px;
+        }
+      }
+
+      &-bar {
+        height: 8px;
+      }
+    }
+  }
+}
+
+// Skills end
+
+// Services start
+
+@media (max-width: 1024px) {
+  .services {
+    &__title {
+      font-size: 38px;
+    }
+
+    &__grid {
+      gap: 25px;
+    }
+
+    &__card {
+      padding: 25px 20px;
+
+      &-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+      }
+
+      &-title {
+        font-size: 17px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    &__card {
+      padding: 20px;
+
+      &-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+      }
+
+      &-title {
+        font-size: 16px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__card {
+      padding: 18px;
+      border-width: 2px;
+
+      &-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+      }
+
+      &-title {
+        font-size: 15px;
+      }
+
+      &-text {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+// Services end
+
+// Projects start
+
+@media (max-width: 1024px) {
+  .projects {
+    &__title {
+      font-size: 38px;
+    }
+
+    &__grid {
+      place-items: center;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 25px;
+
+      &-card {
+        place-items: center;
+        &-title {
+          font-size: 18px;
+        }
+      }
+
+      &-btn {
+        &-icon {
+          font-size: 14px;
+          padding: 10px 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      &-card {
+        &-img img {
+          height: auto;
+        }
+
+        &-title {
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+
+      &-btn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+
+        &-icon {
+          font-size: 14px;
+          padding: 10px 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__grid {
+      gap: 25px;
+
+      &-card {
+        &-img img {
+        max-width: 320px;
+        height: auto;
+      }
+      }
+      
+
+      &-btn {
+        &-icon {
+          width: 100%;
+          text-align: center;
+          padding: 10px 35px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+// Projects end
+
+// Contact start
+
+@media (max-width: 1024px) {
+  .contact {
+    &__title {
+      font-size: 38px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    &__block {
+      gap: 30px;
+
+      &-icon {
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 100px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    &__block {
+      flex-wrap: wrap;
+      gap: 20px;
+
+      &-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 80px 0;
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__text {
+      font-size: 14px;
+    }
+
+    &__block {
+      gap: 15px;
+
+      &-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+// Contact end

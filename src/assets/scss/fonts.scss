@@ -1,0 +1,29 @@
+$Inter: ("Regular", 400), ("Medium", 500), ("SemiBold", 600), ("Bold", 700), ("ExtraBold", 800);
+
+@each $name, $weight in $Inter {
+  @font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-#{$name}.ttf");
+    font-family: $weight;
+  }
+}
+
+$Montserrat: ("Medium", 500), ("SemiBold", 600);
+
+@each $name, $weight in $Montserrat {
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-#{name}.ttf");
+    font-weight: $weight;
+  }
+}
+
+$Poppins: ("Medium", 500), ("SemiBold", 600), ("Bold", 700);
+
+@each $name, $weight in $Poppins {
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-#{name}.ttf");
+    font-weight: $weight;
+  }
+}

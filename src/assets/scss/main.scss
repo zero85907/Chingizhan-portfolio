@@ -1,0 +1,44 @@
+@import "./fonts.scss";
+@import "./media.scss";
+
+:root {
+  --MM: "Montserrat", sans-serif;
+  --II: "Inter", sans-serif;
+  --PP: "Poppins", sans-serif;
+}
+
+body.light {
+  background: #e0e8f6;
+  color: #484e53;
+  --card-bg: #f4f6f8;
+}
+
+body.dark {
+  background: #1a1a1a;
+  color: #e1e1e1;
+  --card-bg: #2b2b2b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--MM, --RR, --PP), sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

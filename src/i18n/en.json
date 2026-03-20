@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+
+  "hero": {
+    "title": "Hello, my name is Chingizhan",
+    "text": "I am a junior front-end developer with good skills in HTML, CSS, JavaScript, and React. I strive to create beautiful and functional websites that provide an excellent user experience. My ultimate goal is to become a SENIOR.",
+    "contact": "My Contact"
+  },
+
+  "about": {
+    "title": "About Me",
+    "meTitle": "More About Me",
+    "meText": "Hello, my name is Chingizhan. I am a beginner frontend developer who enjoys creating modern websites and user interfaces. I like learning new technologies and improving my skills step by step. My goal is to become a strong developer, work in a good company and grow professionally in the field of SENIOR development.",
+    "frontendTitle": "Why I Started Frontend",
+    "frontendText": "I started learning frontend because I liked the idea of creating something from nothing — turning simple code into real websites and interfaces. I enjoy the mix of design and programming. Also, web development is a strong and перспективная profession that gives good opportunities for growth and a stable career."
+  },
+
+  "skills": {
+    "title": "Skills"
+  },
+
+  "services": {
+    "title": "What I do",
+
+    "web": "Website Layout",
+    "webText": "I create clean and structured website layouts based on Figma designs using HTML, CSS and SCSS. I focus on accurate spacing, typography and visual consistency.",
+
+    "frontend": "Frontend Development",
+    "frontendText": "I build responsive and interactive interfaces using JavaScript and React. I pay attention to usability, performance and simple but effective user experience.",
+
+    "ui": "UI Implementation",
+    "uiText": "I convert design concepts into real working interfaces. I try to keep layouts clean, readable and close to the original design while maintaining good code structure.",
+
+    "adaptive": "Responsive Design",
+    "adaptiveText": "I make websites адаптивными for all devices including mobile, tablet and desktop. I ensure layouts look correct and remain user-friendly on different screen sizes."
+  },
+
+  "projects": {
+    "title": "Projects"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "text": "These are my contacts. I am always open to cooperation and new opportunities."
+  }
+}
